@@ -1,0 +1,131 @@
+.filter-panel{
+    display: flex;
+    gap:60px;
+}
+
+.calories{
+   
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap:20px;
+   
+    align-items: center;
+    justify-content: center;
+}
+
+.calories input{
+    width: 30%;
+    padding: 10px 10px;
+}
+
+.cal-list{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.to{
+    margin-left: 20px;
+}
+
+
+
+.calories label{
+    display: flex;
+    gap:20px;
+}
+
+li{
+    list-style: none;
+}
+
+
+.health{
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    text-align: justify;
+}
+
+.vegan{
+    margin-left: 35px;
+}
+
+.paleo{
+    margin-left: 40px;
+}
+
+
+.diet{
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    text-align: justify;
+}
+
+.hf{
+    margin-left: 15px;
+}
+
+.lc{
+    margin-left: 25px;
+}
+
+.cusine{
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    text-align: justify;
+}
+
+.in{
+    margin-left: 20px;
+}
+
+.it{
+    margin-left: 20px;
+}
+.cs{
+    margin-left: 7px;
+}
+
+.meal{
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    text-align: justify;
+}
+
+.btn-large{
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background: #1d1160;
+    color: aliceblue;
+    box-shadow:0 10px 30px rgba(0, 0, 0, 0.5), 0 10px 20px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+}
+
+.btn-large:hover{
+    background: white;
+    color: #1d1160;
+    border: 2px solid #1d1160;
+
+}
+
+.close{
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+   color: white;
+   background: #E52B50;
+   border-radius: 5px;
+   transform: translate(650px,10px);
+}

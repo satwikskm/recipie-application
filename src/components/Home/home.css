@@ -1,0 +1,79 @@
+
+.results{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+    background:  linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+body{
+    background:  linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+.item img{
+    border-radius: 10px;
+    width: 100%;
+   
+}
+
+.search-box{
+    width: 60%;
+    height: 30px;
+    border-radius: 50px  50px;
+    border: none;
+    padding: 10px 30px;
+
+}
+
+.item{
+    margin: 20px 20px;
+    background: whitesmoke;
+    border-radius: 10px;
+    z-index: 1;
+    cursor: pointer;
+   
+}
+
+.searchbar{
+   
+    background:linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+.api{
+   
+    font-size: 20px;
+    background: white;
+    border: none;
+    transform: translate(-40px,5px);
+    border-radius: 0px 25px 25px 0px;
+    color: #2ebf91;
+}
+
+.filter{
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+    color: aliceblue;
+    margin-top: 20px;
+
+}
+
+.filter-screen{
+   margin: 20px 20px;
+    z-index: 100;
+    background:white;
+    width: 97%;
+    align-items: center;
+    height: 42vh;
+    position: fixed;
+    border-radius: 20px;
+    transition: 0.5s ease-in;
+    color: black;
+    border: 5px solid #4B0082;
+    box-shadow:0 10px 30px rgba(0, 0, 0, 0.5), 0 10px 20px rgba(0, 0, 0, 0.24);
+    
+}
+
+.btn{
+    background: #8360c3;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
