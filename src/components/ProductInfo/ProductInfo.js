@@ -57,7 +57,7 @@ const ProductInfo = () => {
                 </div>
                 
                 <div className="health-label">
-                    
+                
                     {product.recipe.healthLabels.map((x)=>{
                         return(
                             <div className="health-label-items">

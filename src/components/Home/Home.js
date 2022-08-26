@@ -29,7 +29,7 @@ const Home = () => {
         //console.log(response.hits)
         setRecipies(response.hits)
         //console.log(recipes)
-        setItem('')
+        
     }
     // useEffect(()=>{
     //     apiCall(item)
@@ -48,12 +48,15 @@ const Home = () => {
             type="text" 
             placeholder='let try out for some recipe'
             onChange={(e)=>setItem(e.target.value)}
+
+            // onkey up event
+            //onKeyUp={apiCall}
             />
             <button 
             className="api"
             type='submit'
-           
-            onClick={()=>console.log('hi')}
+            
+             onClick={()=>console.log('hi')}
             >
                 <BiSearchAlt />
             </button>
