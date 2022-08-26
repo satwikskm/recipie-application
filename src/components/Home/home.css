@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;600&display=swap');
 *{
     margin-top: 0;
 }
@@ -77,6 +77,7 @@ body{
     letter-spacing: 10px;
     font-size: 30px;
     font-weight: 400;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .filter-screen{
@@ -101,6 +102,7 @@ body{
     padding: 10px 10px;
     border-radius: 10px;
     font-size: 20px;
+    transition: 0.5s ease-in;
 }
 
 .btn:hover{
@@ -110,5 +112,7 @@ body{
     padding: 10px 10px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.59);
+    transition: 0.5s ease-out;
+    cursor: pointer;
 }
 

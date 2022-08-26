@@ -128,4 +128,15 @@ li{
    background: #E52B50;
    border-radius: 5px;
    transform: translate(650px,10px);
+   transition: 0.3s ease-out;
+   
+}
+
+.close:hover{
+    cursor: pointer;
+    border: 2px solid #E52B50;
+    background: rgba(255, 255, 255, 0.584);
+    color: #E52B50;
+    transition: 0.3s ease-out;
+
 }
