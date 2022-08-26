@@ -35,12 +35,16 @@ const Filter = (props) =>{
             }
 
         }
-        if(caloriesMin < caloriesMax && caloriesMax >= 0 && caloriesMin >=0){
-            url=url+`&calories%3D${caloriesMin}-${caloriesMax}`
+        if(caloriesMin > 0){
+
+            if(caloriesMin < caloriesMax && caloriesMax >= 0 && caloriesMin >=0){
+                url=url+`&calories%3D${caloriesMin}-${caloriesMax}`
+            }
+            else{
+                alert("Calories cannot be negative and minimum value will be more than maximum value")
+            }
         }
-        else{
-            alert("Calories cannot be negative and minimum value will be more than maximum value")
-        }
+        
         console.log(url)
         const apidata = await fetch(url)
         const response = await apidata.json()
