@@ -1,18 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 
+*{
+    margin-top: 0;
+}
 .results{
     display: grid;
-    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-shrink: none;
     background:  linear-gradient(to right, #8360c3, #2ebf91);
 }
+
+
 
 body{
     background:  linear-gradient(to right, #8360c3, #2ebf91);
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .item img{
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     width: 100%;
+    
    
+}
+
+.searchbar{
+    margin-top: 0;
+    background: url(../../images/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.webp);
 }
 
 .search-box{
@@ -31,12 +45,13 @@ body{
     z-index: 1;
     cursor: pointer;
    
+   
 }
-
+/* 
 .searchbar{
    
     background:linear-gradient(to right, #8360c3, #2ebf91);
-}
+} */
 
 .api{
    
@@ -49,13 +64,23 @@ body{
 }
 
 .filter{
-    background: linear-gradient(to right, #8360c3, #2ebf91);
     color: aliceblue;
-    margin-top: 20px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+
 
 }
 
+.header{
+    background: rgba(255, 255, 255, 0.387);
+    padding: 20px 20px;
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
 .filter-screen{
+   
    margin: 20px 20px;
     z-index: 100;
     background:white;
@@ -72,8 +97,18 @@ body{
 }
 
 .btn{
-    background: #8360c3;
+    background: #002D62;
     padding: 10px 10px;
     border-radius: 10px;
+    font-size: 20px;
+}
+
+.btn:hover{
+    border: 2px solid #002D62;
+    color: #002D62;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.59);
 }
 
