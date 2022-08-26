@@ -2,7 +2,6 @@ import React from 'react'
 import Product from '../Product/Product'
 import { useState} from 'react'
 import { BiSearchAlt } from 'react-icons/bi';
-import Modal from 'react-modal';
 import './home.css'
 import Filter from '../Utils/Filter/Filter';
 
