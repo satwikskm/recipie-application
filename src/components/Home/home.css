@@ -116,3 +116,23 @@ body{
     cursor: pointer;
 }
 
+@media(max-width:400px){
+    .results{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .filter-screen{
+       height: 50vh;
+       width: 90%;
+       position: absolute;
+       overflow:scroll;
+       
+       
+       
+    }
+
+    
+}
+

@@ -1,6 +1,7 @@
 .filter-panel{
     display: flex;
     gap:60px;
+    
 }
 
 .calories{
@@ -139,4 +140,28 @@ li{
     color: #E52B50;
     transition: 0.3s ease-out;
 
+}
+
+@media(max-width:400px){
+    .filter-panel{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .close{
+        transform: translate(130px,10px);
+        position: fixed;
+    }
+
+    .calories {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .health,.diet,.cusine,.meal{
+        align-items: center;
+    }
+
+    
 }
