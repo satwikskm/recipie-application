@@ -13,10 +13,27 @@ const Product = (props) => {
     className='card'
     onClick={()=>productItem()}
     >
-        <img src={props.recipe.image} alt="" />
-        <h1>{props.recipe.label}</h1>
-        <p>Calories : {Math.floor(props.recipe.calories)}</p>
-        <p>Ingirdients : {props.recipe.ingredients.length}</p>
+      <div className="image-holder">
+      <img src={props.recipe.image} alt="" />
+        <h1 className='card-label'>{props.recipe.label}</h1>
+
+      </div>
+        
+        <div className="info-holder">
+        
+        <div className="calories card">
+          <h3>Calories :</h3>
+          <p> {Math.floor(props.recipe.calories)}</p>
+        </div>
+        <div className="ingredients card">
+          <h3>Ingirdients   <p className='round'>{props.recipe.ingredients.length}</p></h3>
+        
+        </div>
+        
+        
+       
+
+        </div>
         <p className='band'>{props.recipe.source}</p>
        
     </div>

@@ -41,6 +41,7 @@ const Home = () => {
         
        
         <section className="searchbar">
+            <h1 className='header'>Lets try out fun Recipes !!!!</h1>
             <form onSubmit={apiCall}>
             <input 
             className='search-box'
@@ -59,18 +60,19 @@ const Home = () => {
             </button>
             
             </form>
+            <div className="filter">
+            <span 
+            className='btn'
+            onClick={filterDropdown}
+            >Refine Your Searches</span>
+        </div>
             
             
             
             
 
         </section>
-        <div className="filter">
-            <span 
-            className='btn'
-            onClick={filterDropdown}
-            >Refine Your Searches</span>
-        </div>
+        
         <div className="filter-box">
         {state?<Filter val={state} setStatefunc={setState} recipe={setRecipies} food={item}/>:console.log("hi")}
         </div>

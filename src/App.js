@@ -6,6 +6,7 @@ import ProductInfo from './components/ProductInfo/ProductInfo';
 function App() {
   return (
     <div className="App">
+     
      <BrowserRouter>
         <Routes>
             <Route path='products' element={<ProductInfo />}/>

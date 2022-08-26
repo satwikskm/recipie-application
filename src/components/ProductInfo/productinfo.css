@@ -1,0 +1,151 @@
+.image-card{
+    display: flex;
+    background: white;
+    padding: 30px 20px;
+    margin: 30px 50px;
+    border-radius: 10px;
+   
+    box-shadow:0 10px 30px rgba(0, 0, 0, 0.5), 0 10px 20px rgba(0, 0, 0, 0.24);
+
+   
+    
+
+}
+
+.product-image{
+
+    padding: 20px 20px;
+    border : 2px solid #00308F;
+    border-radius: 10px;
+}
+
+.image-card img{
+   
+    border-radius: 10px;
+    box-shadow:0 1px 3px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+
+}
+
+.product-links{
+    text-align: center;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    text-decoration: none;
+    width: 100%;
+    border : 2px solid #00308F;
+    border-radius: 10px;
+    
+    color: #feb236;
+    font-size: 30px;
+   
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.product-details{
+    display: flex;
+}
+
+.making{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin: 10px 50px;
+    border-radius: 20px;
+    text-align: left;
+    gap:30px;
+    box-shadow:0 10px 30px rgba(0, 0, 0, 0.5), 0 10px 20px rgba(0, 0, 0, 0.24);
+
+}
+
+.ingredients-head{
+    margin-top: 0;
+    text-align: center;
+    background-color: #00308F;
+    color: aliceblue;
+    padding: 20px 20px;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 30px;
+
+}
+
+.ingredients{
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap:30px
+}
+
+.nutrition{
+    background: white;
+    margin: 20px 20px;
+    border-radius: 20px;
+    width: 50%;
+    box-shadow:0 10px 30px rgba(0, 0, 0, 0.5), 0 10px 20px rgba(0, 0, 0, 0.24);
+
+}
+
+.health-label{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    padding: 20px 20px;
+   
+}
+
+
+.health-label-items{
+    background: #00308F;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.health-label-items>*{
+    flex: 1 1 1 30%;
+   
+}
+
+.nutrition-head{
+    margin-top: 0;
+    text-align: center;
+    background-color: #00308F;
+    color: aliceblue;
+    padding: 5px 5px;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 20px;
+    
+
+}
+
+.ratings{
+    display: flex;
+    padding: 10px 20px;
+    gap:50px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.ratings div{
+    color: #264348;
+    background: #4FFFB0;
+    padding: 30px 30px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow:0 10px 30px rgba(0, 0, 0, 0.5), 0 10px 20px rgba(0, 0, 0, 0.24);
+
+}
