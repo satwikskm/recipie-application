@@ -50,7 +50,7 @@ const Home = () => {
             onChange={(e)=>setItem(e.target.value)}
 
             // onkey up event
-            //onKeyUp={apiCall}
+            onKeyUp={apiCall}
             />
             <button 
             className="api"
